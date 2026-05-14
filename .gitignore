@@ -1,0 +1,44 @@
+# Mods
+mods/
+
+# Runtime
+logs/
+crash-reports/
+saves/
+screenshots/
+backups/
+
+# Generated/cache
+downloads/
+dynamic-resource-pack-cache/
+local/
+.mixin.out/
+.sable/
+patchouli_data.json
+
+# User-specific
+options.txt
+command_history.txt
+imgui.ini
+usercache.json
+usernamecache.json
+ponders_watched.json
+Xaero*
+xaero/*
+
+
+# Client-only
+shaderpacks/
+schematics/
+
+# KubeJS generated
+kubejs/.cache/
+kubejs/exported/
+
+# Modrinth exports
+*.mrpack
+
+# OS/editor crap
+.DS_Store
+Thumbs.db
+*.swp

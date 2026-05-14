@@ -1,0 +1,14 @@
+ServerEvents.recipes(event=>{
+    event.shaped(
+        'create:super_glue',
+        [
+            'GGG',
+            'GBG',
+            'GGG'
+        ],
+        {
+            'G':'tfc:glue',
+            'B':'kubejs:empty_super_glue'
+        }
+    )
+})

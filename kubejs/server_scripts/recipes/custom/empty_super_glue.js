@@ -1,0 +1,11 @@
+ServerEvents.recipes(event=>{
+    event.recipes.tfc.anvil(
+        'kubejs:empty_super_glue',
+        'tfc:metal/sheet/zinc',
+        [
+            'bend_last',
+            'hit_second_last',
+            'bend_third_last'
+        ]
+    )
+})

@@ -1,0 +1,15 @@
+StartupEvents.registry('item', event => {
+	event.create('unfinished_belt_connector', 'create:sequenced_assembly')
+	event.create('mechanical_alloy_double_ingot')
+	event.create('mechanical_alloy_double_sheet')
+	event.create('mechanical_alloy_rod')
+	event.create('unfinished_incomplete_portable_blaze', 'create:sequenced_assembly')
+	event.create('incomplete_portable_blaze', 'create:sequenced_assembly')
+	event.create('portable_blaze'),
+	event.create('saw_blade')
+	event.create('mechanical_alloy_sheet')
+	event.create('industrial_preservatives')
+	event.create('empty_super_glue')
+	event.create('electrum_double_ingot')
+	event.create('electrum_double_sheet')
+})
