@@ -3,9 +3,6 @@ StartupEvents.registry('item', event => {
 	event.create('mechanical_alloy_double_ingot')
 	event.create('mechanical_alloy_double_sheet')
 	event.create('mechanical_alloy_rod')
-	event.create('unfinished_incomplete_portable_blaze', 'create:sequenced_assembly')
-	event.create('incomplete_portable_blaze', 'create:sequenced_assembly')
-	event.create('portable_blaze'),
 	event.create('saw_blade')
 	event.create('mechanical_alloy_sheet')
 	event.create('industrial_preservatives')
