@@ -169,14 +169,16 @@ ServerEvents.recipes(event => {
         'create:pressing/gold_ingot',
         'create:pressing/brass_ingot',
         'create:pressing/iron_ingot',
-        '',
-        '',
-        '',
-        '',
-        '',
-        '',
-        '',
-        '',
+        'simulated:copper_handle',
+        'create:crafting/materials/copper_nugget',
+        'create:crushing/tuff',
+        'create:crushing/tuff_recycling',
+        'create:crushing/veridium',
+        'create:crushing/veridium_recycling',
+        'aeronautics:crushing/end_stone_powder',
+        'minecraft:lime_dye_from_smelting',
+        'aeronautics:adjustable_burner',
+        'aeronautics:mixing/levitite_blend',
         '',
         '',
         '',
@@ -185,6 +187,110 @@ ServerEvents.recipes(event => {
         event.remove(removable)
     })
 
+    const CRUSHING_RECIPES = [
+        'amethyst_block',
+        'nether_gold_ore',
+        'deepslate_zinc_ore',
+        'zinc_ore',
+        'deepslate_lapis_ore',
+        'lapis_ore',
+        'crimsite',
+        'crimsite_recycling',
+        'deepslate_gold_ore',
+        'gold_ore',
+        'asurine',
+        'asurine_recycling',
+        'ochrum_recycling',
+        'deepslate_diamond_ore',
+        'diamond_ore',
+        'gilded_blackstone',
+        'amethyst_cluster',
+        'deepslate_emerald_ore',
+        'emerald_ore',
+        'golden_horse_armor',
+        'deepslate_redstone_ore',
+        'redstone_ore',
+        'diamond_horse_armor',
+        'leather_horse_armor',
+        'glowstone',
+        'blaze_rod',
+        'nether_wart_block',
+        'raw_zinc_block',
+        'deepslate_copper_ore',
+        'copper_ore',
+        'deepslate_iron_ore',
+        'iron_ore',
+        'iron_horse_armor',
+        'raw_zinc',
+        'prismarine_crystals',
+        'raw_iron',
+        'raw_copper',
+        'raw_gold',
+        'gravel',
+        'coal_ore',
+        'deepslate_coal_ore',
+        'raw_copper_block',
+        'diorite',
+        'nether_quartz_ore',
+        'raw_gold_block',
+        'raw_iron_block',
+        'ochrum',
+        'diorite_recycling',
+        'obsidian' // <- Recipe tweaked to also add obsidian shards as byproducts
+    ]
+    CRUSHING_RECIPES.forEach(
+        recipe => {
+            event.remove('create:crushing/' + recipe)
+        }
+    )
+
+    const MILLING_RECIPES = [
+        'torchflower',
+        'azure_bluet',
+        'wheat',
+        'allium',
+        'lilac',
+        'beetroot',
+        'sunflower',
+        'sugar_cane',
+        'saddle',
+        'short_grass',
+        'calcite',
+        'tall_grass',
+        'sandstone',
+        'white_tulip',
+        'terracotta',
+        'lily_of_the_valley',
+        'fern',
+        'pink_tulip',
+        'wither_rose',
+        'orange_tulip',
+        'cactus',
+        'blue_orchid',
+        'granite',
+        'lapis_lazuli',
+        'dripstone_block',
+        'large_fern',
+        'pitcher_plant',
+        'dandelion',
+        'pink_petals',
+        'gravel',
+        'peony',
+        'andesite',
+        'rose_bush',
+        'oxeye_daisy',
+        'cocoa_beans',
+        'cobblestone',
+        'red_tulip',
+        'coal',
+        'poppy',
+        'cornflower'
+    ]
+    MILLING_RECIPES.forEach(
+        recipe => {
+            event.remove('create:milling/' + recipe)
+        }
+    )
 
     // --- SHEET REPLACEMENT LOGIC ---
     function replace(original, replacement)
@@ -206,6 +312,7 @@ ServerEvents.recipes(event => {
     replace('create:golden_sheet', 'tfc:metal/sheet/gold')
     replace('createaddition:zinc_sheet', 'tfc:metal/sheet/zinc')
     replace('minecraft:slime_ball', 'tfc:glue')
+    replace('minecraft:sea_pickle', 'tfc:sea_pickle')
 
     // Postboxes, Shipping containers
     COLOURS.forEach(colour =>{

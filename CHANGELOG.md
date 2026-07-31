@@ -1,4 +1,13 @@
 # Changelog
+## Alpha 0.4
+- Updated a lot of mods. I might have gotten distracted and taken 3 months to update this... oops :skull:.
+- Changed the copper handle recipe to need a forged copper rod.
+- Removed crushing recipes for unobtainable materials.
+- Fixed the crushing recipe for leather horse armour resulting in duplicated leather.
+- Removed milling recipes for unobtainable items.
+- Replaced `minecraft:sea_pickle` with `tfc:sea_pickle` in most recipes.
+## Alpha 0.3
+- Added TFC Mantle Mountains.
 ## Alpha 0.2
 - Reduced regrowing forest speed. From 1 (default, overwhelmingly fast) to 1000 (hopefully slower?).
 - Made shafts craftable from 2 raw stone and a chisel
