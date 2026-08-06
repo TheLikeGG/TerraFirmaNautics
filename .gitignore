@@ -27,6 +27,8 @@ Xaero*
 xaero/*
 cherishedworlds-favorites.dat
 config/jei/ingredient-list-mod-sort-order.ini
+cache/*
+debug/*
 
 
 # Client-only

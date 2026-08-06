@@ -11,6 +11,7 @@
 - Added mod `Create Train Physics Reloaded`, primarily to make trains require an engine, and therefore fuel (or electricity).
 - Added mod `Xaero Train Map` to allow for the world map to also display train lines.
 - Added mod `Create Additions - Sable Compat`.
+- Added plenty of entries to the field guide explaining the major changes made in the pack.
 ## Alpha 0.5
 - Updated `JEI` (fixes a visual glitch).
 - Updated `ArborFirmaCraft` (AFC).

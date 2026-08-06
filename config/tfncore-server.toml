@@ -1,0 +1,12 @@
+# Default: 0.25
+# Range: 0.01 ~ 1.0
+springWaterFillRate = 0.25
+# Default: 4
+# Range: 0 ~ 18
+springWaterProvidedHeating = 4
+# Default: 750
+# Range: 1 ~ 2015
+fireboxHeatedThreshold = 750
+# Default: 1500
+# Range: 1 ~ 2015
+fireboxSuperheatedThreshold = 1500
