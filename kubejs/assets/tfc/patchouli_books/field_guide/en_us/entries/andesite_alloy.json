@@ -1,0 +1,29 @@
+{
+  "name": "Mechanical Alloy",
+  "category": "tfc:tfn",
+  "icon": "create:andesite_alloy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "anchor": "mechanical_alloy",
+      "text": "Create's $(thing)andesite alloy$(), as the name implies, requires $(l:the_world/geology#igneous_extrusive)andesite$() to craft. However, in the world of TerraFirmaCraft it is much harder to find, and realistically speaking, an alloy made of igneous rocks shouldn't be possible.$(br) That is why this modpack renames it as $(thing)mechanical alloy$() and adds a more realistic way of obtaining it."
+    },
+    {
+        "type": "patchouli:spotlight",
+        "item": "create:andesite_alloy,kubejs:mechanical_alloy_double_ingot,kubejs:mechanical_alloy_sheet,kubejs:mechanical_alloy_double_sheet,kubejs:mechanical_alloy_rod",
+        "title": "Mechanical Alloy Items",
+        "text": "$(thing)Mechanical alloy$() has been turned into a TFC metal - That means it has ingots, double ingots, sheets, double sheets and rods, and can be forged using an $(l:mechanics/anvils)anvil$()."
+    },
+    {
+        "type": "patchouli:spotlight",
+        "anchor": "mechanical_alloy_recipe",
+        "title": "Making mechanical alloy",
+        "item": {
+            "item": "kubejs:mechanical_alloy_bucket"
+        },
+        "text": "In order to make mechanical alloy you need a few things:$(br)$(li)A $(l:mechanics/crucible)crucible$() or $(l:getting_started/pottery#vessel)vessel$().$()$(li)A $(l:mechanics/bellows)way$() of reaching $(d)Brilliant White$() (1650ºC) temperatures.$()$(li)And of course, the $(thing)ingredients$():$(li2)70-80% of $(thing)cast iron$().$(li2)10-20% of $(thing)Zinc$().$(li2)0-10% of $(thing)copper$().$()"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 2
+}

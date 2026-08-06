@@ -179,9 +179,14 @@ ServerEvents.recipes(event => {
         'minecraft:lime_dye_from_smelting',
         'aeronautics:adjustable_burner',
         'aeronautics:mixing/levitite_blend',
+        'createaddition:mixing/netherrack',
+        'create:compacting/blaze_cake',
+        'create:filling/blaze_cake',
+        'create:filling/glowstone',
+        'create:filling/redstone',
+        'create:filling/gunpowder',
         '',
-        '',
-        '',
+        ''
     ]
     RECIPES.forEach(removable => {
         event.remove(removable)

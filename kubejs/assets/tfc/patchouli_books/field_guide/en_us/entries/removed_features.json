@@ -1,0 +1,31 @@
+{
+  "name": "Removed features",
+  "category": "tfc:tfn",
+  "icon": "aeronautics:end_stone_powder",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Some mod features have been removed due to balance issues, not fitting the aesthetics of the modpack or simply because the developers couldn't find a way to fit them in."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Blaze burners",
+      "item": "create:empty_blaze_burner, create:blaze_burner",
+      "text": "$(thing)Blaze burners$(), despite being essential to create's progression, are impossible to obtain in TerraFirmaCraft, as there is no nether. Their main function have been replaced by $(l:where_are_blaze_burners)fireboxes$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Levitite",
+      "item": "aeronautics:end_stone_powder, aeronautics:levitite_blend_bucket, aeronautics:levitite, aeronautics:pearlescent_levitite",
+      "text": "$(thing)Levitite$() and it's family of items were removed because, even if we all love antigravity technology, it strays $(o)way too far$() into the realm of magic to fit the $(o)realistic survival and victorian industrialism$() asthetic of $(#f80051)TerraFirmaNautics$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Minecart contraptions",
+      "item": "create:cart_assembler, create:minecart_contraption",
+      "text": "Early during development of $(#f80051)TerraFirmaNautics$(), a community poll decided to remove $(thing)minecart contraptions$() as they are extremely overpowered. So unfortunately, you $(bold)can't$() just make a 50x50 tunnel bore and worm your way around the world with just a stack of coal."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 10
+}

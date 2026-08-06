@@ -1,0 +1,20 @@
+{
+  "values": {
+    "tfc:olive_oil": {
+      "burn_time": 10000
+    },
+    "tfc:canola_oil": {
+      "burn_time": 10000
+    },
+    "firmalife:soybean_oil": {
+      "burn_time": 10000
+    },
+    "createaddition:seed_oil": {
+      "burn_time": 7000
+    },
+    "createaddition:bioethanol": {
+      "burn_time": 15000
+    }
+
+  }
+}

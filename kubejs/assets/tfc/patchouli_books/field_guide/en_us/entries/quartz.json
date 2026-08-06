@@ -1,0 +1,13 @@
+{
+  "name": "How to find quartz [x]",
+  "category": "tfc:tfn",
+  "icon": "minecraft:quartz",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "In terms of quartz... There is no quartz (sad minion noises)."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 5
+}

@@ -1,0 +1,30 @@
+{
+  "name": "The Portable Engine",
+  "category": "tfc:tfn",
+  "icon": "simulated:red_portable_engine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Portable engines$() have had two major changes in $(#f80051)TerraFirmaNautics$():$(li)Their $(bold)recipe$() has been changed to be much more complex and require $(l:mechanics/steel)advanced materials$(), given the $(thing)portable engine$() is a near limitless source of rotational power.$(li)Pipes and pumps cand now be used to feed liquid fuels to the $(thing)portable engines$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/portable_engine.png"
+      ],
+      "text": "The crafting recipe now requires, among other things, $(l:mechanics/steel)steel$() and $(thing)electrum$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Liquid fuels$() can be pumped into the portable engine, and are a $(bold)more efficient$() replacement of traditional solid fuels.$(br)The more popular $(o)solid fuels$() are:$(li)$(bold)Charcoal$() burns for 2:05.$(li)$(bold)Lignite$() burns for 2:30.$(li)$(bold)Bituminous coal$() burns for 5:30.$(br)The main $(o)liquid fuels$() are:$(li)$(bold)Lava$() burns for 16:40.$(li)$(bold)Biofuel$() burns for 12:30.$(li)$(bold)Olive oil$() burns for 8:20.$(li)$(bold)Canola oil$() burns for 8:20.$(li)$(bold)Soybean oil$() burns for 8:20.$(li)$(bold)Seed oil$() burns for 5:50."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:lava_bucket, createaddition:bioethanol_bucket, tfc:bucket/olive_oil, tfc:bucket/canola_oil, firmalife:bucket/soybean_oil, createaddition:seed_oil_bucket",
+      "title": "Liquid fuels",
+      "text": "While very efficient, liquid fuels $(bold)must$() be piped into the $(thing)portable engine$(), you can't just pour them in with a bucket and expect the fuel to not mess with the engine's delicate internal machinery."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 6
+}
