@@ -1,0 +1,87 @@
+{
+  "name": "Where are blaze burners?",
+  "category": "tfc:tfn",
+  "icon": "create:empty_blaze_burner",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Create's $(thing)blaze burners$() are an essential component of most late-game features. However, there is no nether in $(#6A2)TerraFirmaCraft$(). One could imagine a way to manufacture a synthetic blaze in order to power the burners, but unfortunately all attempts at creating artificial life have failed so far."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          ["F"],
+          ["0"]
+        ],
+        "mapping": {
+          "F": "tfc:firebox"
+        },
+        "symmetrical": true
+      },
+      "name": "The mighty Firebox",
+      "text": "This is where the $(thing)firebox$() comes into play. It has been modified to be able to provide $(#A64)heat$() to blocks above.",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          ["B"],
+          ["F"],
+          ["0"]
+        ],
+        "mapping": {
+          "F": "tfc:firebox",
+          "B": "create:basin"
+        },
+        "symmetrical": true
+      },
+      "name": "It can heat basins...",
+      "text": "By $(bold)default$(), the $(thing)firebox$() acts as a $(#A64)heated$() blaze burner when it hits $(c)bright red$() (750ºC), and as a $(#46A)superheated$() blaze burner at $(d)brilliant white$() (>1500ºC).$(br)",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "S ",
+            "  "
+          ],
+          [
+            "  ",
+            "  "
+          ],
+          [
+            "E ",
+            "  "
+          ],
+          [
+            "TT",
+            "TT"
+          ],
+          [
+            "F ",
+            "  "
+          ],
+          [
+            "  ",
+            " 0"
+          ]
+        ],
+        "mapping": {
+          "S": "create:powered_shaft[axis=x]",
+          "E": "create:steam_engine[face=floor,facing=north]",
+          "T": "create:fluid_tank[bottom=true,top=true,shape=plain]",
+          "F": "tfc:firebox"
+        }
+      },
+      "enable_visualize": false,
+      "text": "Fireboxes can also be used to power $(l:steam_engine_changes)steam engines$(), although that logic is a little more complex.",
+      "name": "...and steam engines"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 7
+}

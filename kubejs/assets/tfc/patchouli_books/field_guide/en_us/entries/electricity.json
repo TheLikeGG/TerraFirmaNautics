@@ -1,0 +1,20 @@
+{
+  "name": "Electricity generation",
+  "category": "tfc:tfn",
+  "icon": "createaddition:small_light_connector",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Thanks to $(thing)Create: Crafts and Additions$(), we have the ability to use rotational power and turn it into electrical power, with cables, light bulbs and electric motors. This addon was chosen because it adds $(thing)electricity$() in a simple yet fun way.$(br)$(br)   For more information about this system, consider pondering."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/lit_bridge.png"
+      ],
+      "text": "A winter view of a stone bridge lit by street lights."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 9
+}

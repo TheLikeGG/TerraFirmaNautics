@@ -1,0 +1,31 @@
+{
+  "name": "Recipe tweaks",
+  "category": "tfc:tfn",
+  "icon": "create:brass_hand",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "In order to make create compatible with TerraFirmaCraft, many recipes have been changed. Some have simply had their ingredients replaced by TFC ones, and others have been completely reimagined."
+    },
+    {
+        "type": "patchouli:crafting",
+        "title": "Some changed crafts",
+        "recipe": "create:crafting/kinetics/goggles",
+        "recipe2": "kubejs:kjs/create_mechanical_press"
+    },
+    {
+        "type": "patchouli:crafting",
+        "title": "Some overhauled crafts",
+        "recipe": "kubejs:kjs/create_item_vault",
+        "recipe2": "kubejs:kjs/create_super_glue"
+    },
+    {
+        "type": "patchouli:spotlight",
+        "title": "New items!",
+        "item": "kubejs:empty_super_glue,kubejs:saw_blade,kubejs:unfinished_belt_connector,kubejs:industrial_preservatives",
+        "text": "Some new $(thing)items$() have been added to be part of new recipes."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 2
+}

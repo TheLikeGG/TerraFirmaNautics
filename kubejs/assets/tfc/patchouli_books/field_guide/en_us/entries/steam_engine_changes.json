@@ -1,0 +1,74 @@
+{
+  "name": "Steam Engine changes",
+  "category": "tfc:tfn",
+  "icon": "create:steam_engine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Create's $(thing)steam engines$() are highly versatile sources of rotational power, but in vanilla, unlocking their efficiency requires the usage of $(l:where_are_blaze_burners)blaze burners$(). Since those are unobtainable in $(#6A2)TerraFirmaCraft$(), their power is instead unlocked via $(thing)fireboxes$()!"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "S ",
+            "  "
+          ],
+          [
+            "  ",
+            "  "
+          ],
+          [
+            "E ",
+            "  "
+          ],
+          [
+            "TT",
+            "TT"
+          ],
+          [
+            "F ",
+            "  "
+          ],
+          [
+            "  ",
+            " 0"
+          ]
+        ],
+        "mapping": {
+          "S": "create:powered_shaft[axis=x]",
+          "E": "create:steam_engine[face=floor,facing=north]",
+          "T": "create:fluid_tank[bottom=true,top=true,shape=plain]",
+          "F": "tfc:firebox"
+        }
+      },
+      "enable_visualize": false,
+      "text": "Only $(bold)one$() firebox is needed to power a max level steam engine, if you can keep it $(#B53)hot$() enough.",
+      "name": "A steam engine"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Using a Firebox",
+      "text": "When a $(thing)firebox$() is underneath a steam boiler, it has $(bold)3 possible states$():$(br)$(li)$(bold)Cold:$() It is either unlit or it's temperature is under $(bold)$(#888)100ºC$(). In this state, it will provide no heat to the boiler above.$(br)$(li)$(bold)Hot:$() The firebox temperature is between $(bold)$(#888)100ºC$() and $(bold)$(d)2000ºC$(), providing a proportional heat level to the boiler above."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The greater the temperature, the higher the heat level of the boiler.$(br)$(li)$(bold)Super hot:$() The firebox temperature goes above $(bold)$(d)2000ºC$(), this state means it is outputting the $(o)highest heat level possible$() for a steam boiler, and thus one of these can $(bold)fully$() power a max level steam engine by itself."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Geothermal power",
+      "text": "$(thing)Steam engines$() can now also be powered simply by pumping pressurized hot water into them -- $(bold)No external heating needed!$()$(br) Of course, feeding $(thing)spring water$() to a steam boiler also comes at a cost: Boilers require $(t:Configurable in settings)4^$() times as much $(thing)spring water$() as they would regular water!. In exchange, the spring water will actively provide an $(bold)extra$() $(t:Configurable in settings)4^$() heat levels to the boiler."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/geothermal.png"
+      ],
+      "text": "An example geothermal setup."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 8
+}

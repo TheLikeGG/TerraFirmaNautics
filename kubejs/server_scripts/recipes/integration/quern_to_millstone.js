@@ -317,7 +317,7 @@ ServerEvents.recipes(event =>{
         Ingredient.of(['tfc:ore/rich_garnierite'])
     ),
     event.recipes.create.milling(
-        Item.of('tfc:powder/graphite'),
+        Item.of('tfc:powder/graphite', 4),
         Ingredient.of(['tfc:ore/graphite'])
     ),
     event.recipes.create.milling(

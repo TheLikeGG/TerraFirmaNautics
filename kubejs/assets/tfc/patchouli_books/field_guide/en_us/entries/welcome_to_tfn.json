@@ -1,0 +1,21 @@
+{
+  "name": "Welcome to TFN",
+  "category": "tfc:tfn",
+  "icon": "create:wrench",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Welcome to $(#f80051)TerraFirmaNautics$()! A modpack centered around $(l:https://terrafirmacraft.github.io/Field-Guide/en_us/)TerraFirmaCraft$() and $(l:https://createsimulated.com/)Create Aeronautics$(). $(br) This pack's aim is to bring both mods together and create a seamless experience for the player, from surviving TFC's early game to building a giant paper clip factory spanning the entire galaxy, the world is $(bold)yours$() to automate."
+    },
+    {
+        "type": "patchouli:image",
+        "images": 
+        [
+            "tfc:textures/airship.png"
+        ],
+        "text": "The only limit is your imagination... And the laws of physics."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 1
+}

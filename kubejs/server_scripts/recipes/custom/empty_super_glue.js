@@ -7,5 +7,5 @@ ServerEvents.recipes(event=>{
             'hit_second_last',
             'bend_third_last'
         ]
-    )
+    ).id('kjs/empty_super_glue')
 })

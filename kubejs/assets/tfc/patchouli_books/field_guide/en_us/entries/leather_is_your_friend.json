@@ -1,0 +1,18 @@
+{
+  "name": "Leather is your friend",
+  "category": "tfc:tfn",
+  "icon": "minecraft:leather",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "In create, $(thing)dried kelp$() is used as the base for many machines, however, in the world of $(#6A2)TerraFirmaCraft$() dried algae is much rarer, and as such it would $(italic)quickly$() become a bottleneck in every factory.$(br)  This is why, in $(#f80051)TerraFirmaNautics$(), dried kelp's function has been replaced by $(l:mechanics/leather_making)leather$()."
+    },
+    {
+        "type": "patchouli:crafting",
+        "recipe": "kubejs:kjs/create_brass_funnel",
+        "text": "Tunnels, funnels, conveyor belts and spouts have all had their recipes adapted to use leather instead of dried kelp."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 4
+}
